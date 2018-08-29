@@ -1,0 +1,9 @@
+diff a/towerDefence/towerDefence/Monster.cpp b/towerDefence/towerDefence/Monster.cpp	(rejected hunks)
+@@ -72,6 +72,7 @@
+ 
+ void Monster::changeCookie()
+ {
++	isCookie = true;
+ }
+ 
+ bool Monster::isCookieF()

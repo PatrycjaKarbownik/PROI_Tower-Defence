@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MyException" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bullett" Collapsed="true">
+    <Position X="3.75" Y="6.75" Width="1.5" />
+    <InheritanceLine Type="Texturee" FixedToPoint="true">
+      <Path>
+        <Point X="1.5" Y="6.57" />
+        <Point X="1.5" Y="7.125" />
+        <Point X="3.75" Y="7.125" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAABAAAAAAAgAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bullett.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Buttonn" Collapsed="true">
+    <Position X="3.75" Y="7.75" Width="1.5" />
+    <InheritanceLine Type="Texturee" FixedToPoint="true">
+      <Path>
+        <Point X="1.5" Y="6.57" />
+        <Point X="1.5" Y="8.062" />
+        <Point X="3.75" Y="8.062" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AEpCAABBAAAAAAAAQkAAAAAAIRABAAAAAAAGAAQABAE=</HashCode>
+      <FileName>Buttonn.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cookie" Collapsed="true">
+    <Position X="3.75" Y="3.75" Width="1.5" />
+    <InheritanceLine Type="Texturee" FixedToPoint="true">
+      <Path>
+        <Point X="1.5" Y="5.75" />
+        <Point X="1.5" Y="4.125" />
+        <Point X="3.75" Y="4.125" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAIAABIAAAAAAAAABEAAAAAAAAAAAACAAAAASAAEAAA=</HashCode>
+      <FileName>Cookie.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine" Collapsed="true">
+    <Position X="0.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UKIzkAUoxIWAqHiAIABiAAxGYQCQKBighCACAAIQGAE=</HashCode>
+      <FileName>Engine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game" Collapsed="true">
+    <Position X="3.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAgIABAAAAAIQAAAgAAAiAAAAEAAAAAAYAAIA=</HashCode>
+      <FileName>Game.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Path" Collapsed="true">
+    <Position X="3.75" Y="9.75" Width="1.5" />
+    <InheritanceLine Type="Texturee" FixedToPoint="true">
+      <Path>
+        <Point X="1.5" Y="6.57" />
+        <Point X="1.5" Y="10.062" />
+        <Point X="3.75" Y="10.062" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Path.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Monster" Collapsed="true">
+    <Position X="3.75" Y="4.75" Width="1.5" />
+    <InheritanceLine Type="Texturee" FixedToPoint="true">
+      <Path>
+        <Point X="1.5" Y="5.75" />
+        <Point X="1.5" Y="5.062" />
+        <Point X="3.75" Y="5.062" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAIEAAAMAQAAAACECAAAAAAAAQAAAAAAUmAJQAAAQIQ=</HashCode>
+      <FileName>Monster.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="River" Collapsed="true">
+    <Position X="3.75" Y="8.75" Width="1.5" />
+    <InheritanceLine Type="Texturee" FixedToPoint="true">
+      <Path>
+        <Point X="1.5" Y="6.57" />
+        <Point X="1.5" Y="9.125" />
+        <Point X="3.75" Y="9.125" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAQAAAAAAAIAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>River.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Save" Collapsed="true">
+    <Position X="0.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gACAAIBAACBQICAIYAEQAAAAIAAAAAAAAABgEAAAECE=</HashCode>
+      <FileName>Save.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Stone" Collapsed="true">
+    <Position X="3.75" Y="10.75" Width="1.5" />
+    <InheritanceLine Type="Texturee" FixedToPoint="true">
+      <Path>
+        <Point X="1.5" Y="6.57" />
+        <Point X="1.5" Y="11.062" />
+        <Point X="3.75" Y="11.062" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Stone.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Texturee" Collapsed="true">
+    <Position X="0.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAgACAACIAAAACABAAAgEABAAAAAAAAAA=</HashCode>
+      <FileName>Texturee.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tower" Collapsed="true">
+    <Position X="3.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAABAASLFIAAAAgAAAAwCQAAAQATEQAECBgAABAIASE=</HashCode>
+      <FileName>Tower.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tower_apple" Collapsed="true">
+    <Position X="6.75" Y="5" Width="1.5" />
+    <InheritanceLine Type="Tower" FixedFromPoint="true">
+      <Path>
+        <Point X="5.25" Y="6.125" />
+        <Point X="5.625" Y="6.125" />
+        <Point X="5.625" Y="5.346" />
+        <Point X="6.75" Y="5.346" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAABAACABAAAAAAEAAAwAQAAAAATEQAACAAAAAAAAAA=</HashCode>
+      <FileName>Tower_apple.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tower_orange" Collapsed="true">
+    <Position X="6.75" Y="6" Width="1.5" />
+    <InheritanceLine Type="Tower" FixedFromPoint="true">
+      <Path>
+        <Point X="5.25" Y="6.125" />
+        <Point X="5.625" Y="6.125" />
+        <Point X="5.625" Y="6.408" />
+        <Point X="6.75" Y="6.408" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAABAACABAAAAEAAAAAwAQEAAAASEQAACAAAAAAAAAA=</HashCode>
+      <FileName>Tower_orange.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tower_straw" Collapsed="true">
+    <Position X="6.75" Y="8" Width="1.5" />
+    <InheritanceLine Type="Tower" FixedFromPoint="true">
+      <Path>
+        <Point X="5.25" Y="6.125" />
+        <Point X="5.625" Y="6.125" />
+        <Point X="5.625" Y="8.346" />
+        <Point X="6.75" Y="8.346" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>ACABAACABAAAAAAAAAAwCQAAAAASEAAACAAAgAAAAAA=</HashCode>
+      <FileName>Tower_straw.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tower_wmelon" Collapsed="true">
+    <Position X="6.75" Y="7" Width="1.5" />
+    <InheritanceLine Type="Tower" FixedFromPoint="true">
+      <Path>
+        <Point X="5.25" Y="6.125" />
+        <Point X="5.625" Y="6.125" />
+        <Point X="5.625" Y="7.346" />
+        <Point X="6.75" Y="7.346" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAABAACABAAAAAAgAIAwAQAAAAASEQAACAAAAAAAAAA=</HashCode>
+      <FileName>Tower_wmelon.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
