@@ -1,3 +1,7 @@
+//Autorzy:
+//Patrycja Karbownik
+//Anna Yelkina
+
 #include "Buttonn.h"
 
 Buttonn::Buttonn(sf::Texture &texture, towerType value, int x, int y)

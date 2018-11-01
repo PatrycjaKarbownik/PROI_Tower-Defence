@@ -1,3 +1,7 @@
+//Autorzy:
+//Patrycja Karbownik
+//Anna Yelkina
+
 #include "Stone.h"
 
 Stone::Stone(sf::Texture &texture, int x, int y)

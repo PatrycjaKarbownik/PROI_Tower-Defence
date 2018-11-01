@@ -1,3 +1,7 @@
+//Autorzy:
+//Patrycja Karbownik
+//Anna Yelkina
+
 #include "Tower_apple.h"
 
 int Tower_apple::price = 30;

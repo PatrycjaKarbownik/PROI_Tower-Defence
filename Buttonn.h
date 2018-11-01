@@ -1,3 +1,7 @@
+//Autorzy:
+//Patrycja Karbownik
+//Anna Yelkina
+
 #pragma once
 #include "Texturee.h"
 #include "Tower.h"

@@ -1,3 +1,7 @@
+//Autorzy:
+//Patrycja Karbownik
+//Anna Yelkina
+
 #include "Tower.h"
 
 Tower::Tower()

@@ -1,3 +1,7 @@
+//Autorzy:
+//Patrycja Karbownik
+//Anna Yelkina
+
 #include "Engine.h"
 #include "Monster.h"
 #include "Tower.h"

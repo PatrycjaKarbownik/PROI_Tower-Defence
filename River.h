@@ -1,3 +1,7 @@
+//Autorzy:
+//Patrycja Karbownik
+//Anna Yelkina
+
 #pragma once
 #pragma once
 #include <SFML/Window.hpp>

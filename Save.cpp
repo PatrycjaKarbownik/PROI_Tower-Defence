@@ -1,3 +1,7 @@
+//Autorzy:
+//Patrycja Karbownik
+//Anna Yelkina
+
 #include "Save.h"
 
 Save::Save(/*int money, int monsterCount, int monstersStrength, int cookieCount, unsigned int towersCount, int aSpeed, int aOffence, int aPrice,

@@ -1,3 +1,7 @@
+//Autorzy:
+//Patrycja Karbownik
+//Anna Yelkina
+
 #include <ctime>
 #include <SFML/Window.hpp>
 #include <SFML/Graphics.hpp>

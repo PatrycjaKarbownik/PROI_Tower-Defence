@@ -1,4 +1,8 @@
-﻿#include "Game.h"
+﻿//Autorzy:
+//Patrycja Karbownik
+//Anna Yelkina
+
+#include "Game.h"
 #include <SFML/Window.hpp>
 #include <SFML/Graphics.hpp>
 #include <string>

@@ -1,3 +1,7 @@
+//Autorzy:
+//Patrycja Karbownik
+//Anna Yelkina
+
 #include "Tower_wmelon.h"
 
 int Tower_wmelon::price = 15;

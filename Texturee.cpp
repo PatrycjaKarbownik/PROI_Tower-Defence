@@ -1,3 +1,7 @@
+//Autorzy:
+//Patrycja Karbownik
+//Anna Yelkina
+
 #include "Texturee.h"
 
 Texturee::Texturee() //rodzic wszystkich teksturowych klas

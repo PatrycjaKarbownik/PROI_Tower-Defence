@@ -1,3 +1,7 @@
+//Autorzy:
+//Patrycja Karbownik
+//Anna Yelkina
+
 #include "Tower_straw.h"
 
 int Tower_straw::price = 60;

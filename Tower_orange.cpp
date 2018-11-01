@@ -1,3 +1,7 @@
+//Autorzy:
+//Patrycja Karbownik
+//Anna Yelkina
+
 #include "Tower_orange.h"
 
 int Tower_orange::price = 40;

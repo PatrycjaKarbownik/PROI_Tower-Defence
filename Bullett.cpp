@@ -1,3 +1,7 @@
+//Autorzy:
+//Patrycja Karbownik
+//Anna Yelkina
+
 #include "Bullett.h"
 
 Bullett::Bullett(sf::Texture &textureB, float x, float y)
