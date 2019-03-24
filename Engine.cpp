@@ -59,7 +59,6 @@ Engine::Engine(int money, int monsterCount, int monstersStrength, int cookieCoun
 				int oSpeed, int oOffence, int oPrice, int sOffence, int sPrice, int wSpeed, int wOffence, int wPrice, std::vector<int> x,
 				std::vector<int> y, std::vector<int> type)
 {
-	printf("bo ze tutaj, to nie wierze\n");
 	menu = false;
 	try
 	{
@@ -76,17 +75,13 @@ Engine::Engine(int money, int monsterCount, int monstersStrength, int cookieCoun
 	downloadButtons();
 	downloadFonts();
 
-	printf("a moze tu?\n");
-
 	this->money = money;
 	this-> monstersCount = monsterCount;
 	this->monstersStrength = monstersStrength;
 	cookie.setCount(cookieCount);
-	printf("load parametry chyba ok???\n");
 
 	for (int i = 0; i < towersCount; i++)
 	{
-		printf("tu problem? 1\n");
 		if (type[i] == 0)
 			towers.push_back(new Tower_apple(textureApT, x[i],y[i]));
 		else if (type[i] == 1)
@@ -100,7 +95,6 @@ Engine::Engine(int money, int monsterCount, int monstersStrength, int cookieCoun
 	for(int i=0; i<towersCount; i++) //robie kazde osobno, dlatego, ze to bedzie chyba szybsze dla komputera. moze w petli wyzej powinnam to robic,
 		if (towers[i]->getType() == 0)		//ale wtedy kilka razy zapisuje jedna zmienna statyczna. nie wiem czy to bedzie dobre
 		{
-			printf("tu problem? 2\n");
 			towers[i]->setOffence(aOffence);
 			towers[i]->setSpeed(aSpeed);
 			towers[i]->setPrice(aPrice);
@@ -110,7 +104,6 @@ Engine::Engine(int money, int monsterCount, int monstersStrength, int cookieCoun
 	for (int i = 0; i<towersCount; i++)
 		if (towers[i]->getType() == 1)
 		{
-			printf("tu problem? 3\n");
 			towers[i]->setOffence(oOffence);
 			towers[i]->setSpeed(oSpeed);
 			towers[i]->setPrice(oPrice);
@@ -120,7 +113,6 @@ Engine::Engine(int money, int monsterCount, int monstersStrength, int cookieCoun
 	for (int i = 0; i<towersCount; i++)
 		if (towers[i]->getType() == 2)
 		{
-			printf("tu problem? 4\n");
 			towers[i]->setOffence(wOffence);
 			towers[i]->setSpeed(wSpeed);
 			towers[i]->setPrice(wPrice);
@@ -130,7 +122,6 @@ Engine::Engine(int money, int monsterCount, int monstersStrength, int cookieCoun
 	for (int i = 0; i<towersCount; i++)
 		if (towers[i]->getType() == 3)
 		{
-			printf("tu problem? 5\n");
 			towers[i]->setOffence(sOffence);
 			towers[i]->setPrice(sPrice);
 			break;
@@ -465,7 +456,6 @@ void Engine::killMonster()
 {
 	if (monsters[0]->getStrength() <= 0 && !monsters[0]->deleteMon())
 	{
-	//	printf("ZABIC \n");
 		monsters[0]->changeDelete(true);
 		delete monsters[0];
 		monsters.erase(monsters.begin());

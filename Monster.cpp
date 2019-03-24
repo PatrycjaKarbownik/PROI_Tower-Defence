@@ -102,7 +102,6 @@ void Monster::killMonster(std::vector<Monster*> monsters, int money)
 {
 	if (monsters[0]->getStrength() <= 0 && !monsters[0]->deleteMon())
 	{
-	//	printf("ZABIC \n");
 		monsters[0]->changeDelete(true);
 		delete monsters[0];
 		monsters.erase(monsters.begin());

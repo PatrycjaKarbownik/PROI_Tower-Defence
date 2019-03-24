@@ -65,7 +65,6 @@ bool Tower_straw::shot(Monster* monster, std::vector<Path*> path)
 		monster->changeShoted(false);
 		if (monster->getStrength() == 0)
 		{
-			printf("ZABIC MINA\n");
 			return true;
 		}
 	}

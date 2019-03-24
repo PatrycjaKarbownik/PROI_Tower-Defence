@@ -66,7 +66,6 @@ void get() {};
 
 template <class Tower, typename... Smth> void get(Tower* tower, Smth... smth)
 {
-	std::cout << "Hello, it's me " << std::endl;
 	tower->megaRange(); //zwieksza sie range stojacych obok wiez
 	tower->changeMegaTow(true);
 	get(smth...);

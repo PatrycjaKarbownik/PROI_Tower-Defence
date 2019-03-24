@@ -61,11 +61,9 @@ void Game::runGame()
 			break;
 		case GameState::LOAD:
 			load();
-			printf("load tworzy\n");
 			engine = new Engine(money, monsterCount, monstersStrength, cookieCount, towersCount, appleSpeed, appleOffence, applePrice,
 								orangeSpeed, orangeOffence, orangePrice, strawOffence, strawPrice, wmelonSpeed, wmelonOffence, wmelonPrice,
 								x, y, towerType);
-			printf("odpali za chwile\n");
 			single(appWind);
 			break;
 		case GameState::GAME_OVER:
